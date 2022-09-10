@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/tvshows-react-django/static/css/main.71fa8c0d.css",
-    "main.js": "/tvshows-react-django/static/js/main.10f5463e.js",
+    "main.js": "/tvshows-react-django/static/js/main.ace23d56.js",
     "static/js/787.cda612ba.chunk.js": "/tvshows-react-django/static/js/787.cda612ba.chunk.js",
     "static/media/pexels-tima-miroshnichenko-7991380.jpg": "/tvshows-react-django/static/media/pexels-tima-miroshnichenko-7991380.48855732f8750dec7d7e.jpg",
     "index.html": "/tvshows-react-django/index.html",
     "main.71fa8c0d.css.map": "/tvshows-react-django/static/css/main.71fa8c0d.css.map",
-    "main.10f5463e.js.map": "/tvshows-react-django/static/js/main.10f5463e.js.map",
+    "main.ace23d56.js.map": "/tvshows-react-django/static/js/main.ace23d56.js.map",
     "787.cda612ba.chunk.js.map": "/tvshows-react-django/static/js/787.cda612ba.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.71fa8c0d.css",
-    "static/js/main.10f5463e.js"
+    "static/js/main.ace23d56.js"
   ]
 }
