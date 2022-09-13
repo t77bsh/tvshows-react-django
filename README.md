@@ -7,6 +7,7 @@ This source code is for the deployed production version only. It will not run on
 To test comments on the live site without registering, use:
 
 Email: user@admin.com
+
 Pass: test123
 
 ## Demo:
