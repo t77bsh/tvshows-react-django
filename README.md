@@ -9,4 +9,5 @@ A web app that allows users to browse and discuss their favourite classic TV sho
 
 ### Built with
 Frontend: React JS, JavaScript, Firebase, HTML, CSS and SCSS.
+
 Backend: Django (Rest Framework), Python and SQLite.
