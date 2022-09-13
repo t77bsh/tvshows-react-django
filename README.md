@@ -4,6 +4,11 @@ This source code is for the deployed production version only. It will not run on
 
 ## Live site: https://t77bsh.github.io/tvshows-react-django/
 
+## Demo:
+
+https://user-images.githubusercontent.com/100529283/189950450-6bf9454b-e558-449e-9f53-c718e8d05f84.mov
+
+
 ## Overview
 A web app that allows users to browse and discuss their favourite classic TV shows.
 
