@@ -1,0 +1,48 @@
+.signin-background {
+    width:100vw;
+    height:100vh;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center center;
+    display:flex;
+}
+
+
+.auth-div {
+    color:white;
+    width: 300px;
+    height: 400px;
+    background-color: rgba(0, 0, 0, 0.707);
+    border-radius: 10px;
+    padding: 1rem;
+    text-align: center;
+    margin: auto;
+
+    a {color:white;}
+
+    p {
+        text-decoration: underline;
+        cursor:pointer;
+    }
+}
+
+.input {
+    width: 17rem;
+    margin-bottom: 1rem;
+    padding: 0.4rem 0 0.4rem 0.4rem;
+}
+
+.signin-button {
+    border-radius: 30px;
+    border: none;
+    color: white;
+    padding: 1rem;
+    font-size: 1rem;
+    background-color: #f02525;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.2));
+    width:17rem;
+
+    &:hover {
+        cursor:pointer;
+    }
+}

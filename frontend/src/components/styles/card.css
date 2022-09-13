@@ -1,0 +1,73 @@
+.test-card {
+  border-radius: 20px 20px 20px 70px;
+  background-color: white;
+  color: black;
+  height: 470px;
+  margin: 0 0.5rem;
+}
+.test-card:hover {
+  cursor: pointer;
+}
+.test-card .relative-div {
+  position: relative;
+}
+.test-card__img-div {
+  width: 310px;
+  height: 300px;
+  border-radius: 20px;
+  overflow: hidden;
+}
+.test-card__image {
+  width: 100%;
+  border-radius: 20px;
+}
+.test-card__full-image {
+  border-radius: 7px;
+  width: 90px;
+  height: 100%;
+}
+.test-card table {
+  margin: 0 auto;
+  border-spacing: 10px 0;
+  text-align: center;
+}
+.test-card table thead tr {
+  color: rgb(104, 104, 104);
+}
+.test-card table tbody tr {
+  color: rgb(48, 48, 48);
+  font-weight: bold;
+}
+
+.parent-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+  grid-column-gap: 7px;
+  grid-row-gap: 0px;
+  position: absolute;
+  bottom: -70px;
+  left: 20px;
+}
+
+.div1 {
+  grid-area: 1/1/7/3;
+}
+
+.div2 {
+  grid-area: 4/3/6/6;
+  font-weight: bold;
+  display: flex;
+  align-items: flex-end;
+}
+
+.div3 {
+  grid-area: 6/3/7/6;
+}
+
+@media screen and (max-width: 320px) {
+  .test-card__img-div {
+    width: 290px;
+    height: 280px;
+  }
+}/*# sourceMappingURL=card.css.map */

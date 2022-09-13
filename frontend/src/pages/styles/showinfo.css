@@ -1,0 +1,234 @@
+.bg-div {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 80%, 0% 100%);
+          clip-path: polygon(0 0, 100% 0, 100% 80%, 0% 100%);
+  height: 50vh;
+  max-height: 1500px;
+  position: relative;
+}
+
+.content-div {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  margin: -200px auto 0 auto;
+  width: 100%;
+}
+
+.flexbox {
+  display: flex;
+  max-width: 1700px;
+  padding: 0 2rem;
+  margin: auto;
+}
+
+.flex-1 {
+  display: flex;
+  flex-direction: column;
+  margin-right: 4rem;
+}
+.flex-1 img {
+  width: 300px;
+}
+
+.flex-2 .title-div {
+  margin: 20px 0;
+}
+.flex-2 .title-div span {
+  font-size: 2rem;
+  background-color: rgba(0, 0, 0, 0.349);
+}
+
+.genres-div {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  width: 200px;
+}
+
+.genre {
+  border: 0;
+  border-radius: 12px;
+  margin: 0.5rem 0.4rem;
+}
+
+.summary-txt {
+  margin-top: 8rem;
+}
+
+.comments-section {
+  display: flex;
+  flex-direction: column;
+  padding-left: 2rem;
+  max-width: 1700px;
+  margin: 0 auto;
+}
+
+.comments-form {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+}
+.comments-form textarea {
+  border-radius: 10px;
+  resize: none;
+  padding: 1rem;
+  background: transparent;
+  color: white;
+  width: 50vw;
+  min-width: 250px;
+  max-width: 800px;
+}
+.comments-form button {
+  float: right;
+  margin-top: 5px;
+}
+
+.comments-display {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+}
+.comments-display .user-comment {
+  width: 52vw;
+  min-width: 250px;
+  max-width: 800px;
+  margin: 2rem 0;
+  border-bottom: 1px solid white;
+}
+.comments-display .user-comment__userEditDelete {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+.comments-display .user-comment__userEditDelete .user {
+  color: rgb(151, 151, 151);
+}
+.comments-display .user-comment__buttons {
+  cursor: pointer;
+  margin: 0 5px;
+}
+
+.comment {
+  margin-bottom: 1rem;
+}
+
+.cancel-save-div {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 1rem;
+}
+
+.cancel-save {
+  border: none;
+  cursor: pointer;
+  margin-top: 5px;
+}
+
+.save {
+  color: white;
+  border-radius: 2px;
+  background-color: #2540f0;
+  background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.2));
+}
+
+.save:hover {
+  font-weight: bolder;
+}
+
+.cancel {
+  color: #f02525;
+  text-decoration: underline;
+  background: none;
+}
+
+.cancel:hover {
+  font-weight: bolder;
+}
+
+.edit-comment {
+  color: white;
+  background: none;
+  border-radius: 10px;
+  resize: none;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  width: 50vw;
+  min-width: 250px;
+  max-width: 800px;
+  margin-bottom: 0;
+}
+
+.trash-can {
+  color: #f02525;
+}
+
+.confirm-delete {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.634);
+}
+
+.modal-content {
+  width: 20rem;
+  border-radius: 7px;
+  padding: 1rem;
+  background-color: white;
+  color: black;
+}
+
+.modal-content h1 {
+  font-weight: 500;
+  color: #f02525;
+}
+
+.no {
+  background-color: hsl(211deg, 10%, 45%);
+  background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.2));
+  border: none;
+  border-radius: 6px;
+  padding: 0.7rem 2.3rem;
+  color: white;
+  font-weight: 500;
+}
+
+.yes {
+  background-color: #f02525;
+  background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.2));
+  border: none;
+  border-radius: 6px;
+  padding: 0.7rem 2.3rem;
+  color: white;
+  font-weight: 500;
+  float: right;
+}
+
+.yes:hover,
+.no:hover {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 800px) {
+  .flexbox {
+    flex-direction: column;
+    text-align: center;
+  }
+  .flex-1 {
+    margin-right: 0;
+  }
+  .flex-1 img {
+    width: 250px;
+  }
+  .summary-txt {
+    margin-top: 3rem;
+  }
+}/*# sourceMappingURL=showinfo.css.map */
