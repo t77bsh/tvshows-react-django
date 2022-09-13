@@ -14,6 +14,8 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
+Note: as this source code is for the deployed production version, some features may not work when you run the front end in your local host.
+
 ### `npm test`
 
 Launches the test runner in the interactive watch mode.\
