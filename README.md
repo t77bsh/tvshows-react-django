@@ -24,6 +24,7 @@ Frontend: React JS, JavaScript, Firebase, HTML, CSS and SCSS.
 Backend: Django (Rest Framework), Python and SQLite.
 
 
+## Takeaways: 
 - Fetched TV Shows data from an external API. Created dynamic URL routes for each show.
 - Implemented search functionality using the useState hook to find specific shows.
 - Integrated authentication using Firebase and created protected URL routes for the sign-in/register page depending on if the user is already logged in.
